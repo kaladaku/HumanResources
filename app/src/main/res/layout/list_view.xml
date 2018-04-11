@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView android:text="TextView" android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content" android:layout_width="wrap_content"
+        android:layout_alignParentTop="true" android:layout_alignParentLeft="true"
+        android:id="@+id/lblEname"></TextView>
+
+    <TextView android:text="TextView" android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content" android:id="@+id/lblDesignation"
+        android:layout_width="wrap_content" android:layout_below="@+id/lblSalary"
+        android:layout_alignParentLeft="true"></TextView>
+
+    <TextView android:text="TextView" android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_height="wrap_content" android:layout_width="wrap_content"
+        android:id="@+id/lblSalary"
+        android:layout_marginRight="87dp"
+        android:layout_marginEnd="87dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"></TextView>
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textatt"
+        android:textAppearance="@android:style/TextAppearance.Material.Large"
+        android:textSize="22sp"
+        android:layout_below="@+id/lblSalary"
+        android:layout_alignLeft="@+id/lblSalary"
+        android:layout_alignStart="@+id/lblSalary" />
+
+</RelativeLayout>
